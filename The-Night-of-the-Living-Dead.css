@@ -1,0 +1,99 @@
+/*  JavaScript 7th Edition
+    
+
+    Filename: Horror-home.css
+*/
+
+/* apply a natural box layout model to all elements */
+body {
+   text-align: center;
+   line-height: 1;
+   width: auto;
+  
+   background-color:black;
+   background-size: 275%;
+   background-repeat: no-repeat;
+   
+  
+   .container {
+     display: flex;
+   }
+   
+   img {
+     margin-top: 50px;
+  
+     flex-shrink: 1;
+     width: 50%;
+   }
+   
+   @media (max-width: 600px) {
+     img {
+       width: 100%;
+     }
+   }
+ 
+} 
+
+
+
+
+
+h1 {
+  text-align: center;
+  line-height: 1;
+  width: auto;
+  text-shadow:
+  -2px -1px 0 darkred,  
+  1px -1px 0 rgb(40, 2, 2),
+  -2px  1px 0 rgb(179, 27, 27),
+  1px  1px 0 rgb(245, 6, 6);
+  margin-bottom: 25px;
+  margin-top: 45px;
+  font-family: 'Creepster', cursive;
+  font-size:30px;
+  color:red
+   hidden;
+}
+
+
+footer {
+  font-size: 12px;
+       
+  margin-top: 50px;
+ 
+  position: bottom;
+  left: 0;
+  bottom: 0;
+ 
+
+  color: red;
+  text-align: center;
+  padding: 5px;
+     }
+
+/* page header */
+
+
+ol, ul {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-family: 'Creepster', cursive;
+  font-size:medium;
+  color:red;
+  list-style-position: left;
+  list-style: inside;
+  float:top;
+   
+   
+   
+ }
+
+ li {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-right: 25px;
+ 
+  font-weight: bold;
+  font-size: small;
+  color:crimson;
+}
